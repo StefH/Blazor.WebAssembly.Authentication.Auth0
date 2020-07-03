@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+
+		<Description>Authenticate your Blazor WebAssembly applications with Auth0</Description>
+		<Authors>Stef Heyenrath</Authors>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<PackageId>WebAssembly.Authentication.Auth0</PackageId>
+		<LangVersion>8.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<PackageTags>Blazor;Auth0;Authentication;JWT;Audience</PackageTags>
+		<PackageReleaseNotes>See CHANGELOG.md</PackageReleaseNotes>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageProjectUrl>https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0</RepositoryUrl>
+		<ProjectGuid>{D3804221-1234-4502-9595-39584E5A0222}</ProjectGuid>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../../resources/icon.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="3.2.0" />
+	</ItemGroup>
+</Project>
