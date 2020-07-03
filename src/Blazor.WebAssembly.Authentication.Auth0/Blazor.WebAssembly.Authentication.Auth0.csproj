@@ -8,7 +8,7 @@
 		<PackageId>WebAssembly.Authentication.Auth0</PackageId>
 		<LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
-		<PackageTags>Blazor;Auth0;Authentication;JWT;Audience</PackageTags>
+		<PackageTags>Blazor;WebAssembly;Auth0;Authentication;JWT;Audience</PackageTags>
 		<PackageReleaseNotes>See CHANGELOG.md</PackageReleaseNotes>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0</PackageProjectUrl>
