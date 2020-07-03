@@ -32,4 +32,5 @@ builder.Services.AddAuth0Authentication(options =>
 
 ---
 ### References
+- [Example : BlazorWasmGrpcWithAuth0](https://github.com/StefH/BlazorWasmGrpcWithAuth0)
 - [Secure an ASP.NET Core Blazor WebAssembly standalone app with the Authentication library](https://docs.microsoft.com/en-us/aspnet/core/blazor/security/webassembly/standalone-with-authentication-library?view=aspnetcore-3.1)
