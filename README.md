@@ -1,5 +1,7 @@
 # Blazor.WebAssembly.Authentication.Auth0
-Blazor WebAssembly Auth0 Oidc Authentication with support for *Audience*, because the default AddOidcAuthentication does not support setting the Audience.
+Blazor WebAssembly Auth0 Oidc Authentication with support for *Audience*, because the default `AddOidcAuthentication` does not support setting the *Audience*.
+
+[![NuGet](https://buildstats.info/nuget/WebAssembly.Authentication.Auth0)](https://www.nuget.org/packages/WebAssembly.Authentication.Auth0)
 
 ### Install the NuGet
 
