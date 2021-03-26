@@ -7,10 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33997DC9-84A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42E32377-5505-45FD-81C2-5BAAE2058B79}"
 	ProjectSection(SolutionItems) = preProject
+		GitHubReleaseNotes.txt = GitHubReleaseNotes.txt
 		README.md = README.md
+		ReleaseNotes.md = ReleaseNotes.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.WebAssembly.Authentication.Auth0", "src\Blazor.WebAssembly.Authentication.Auth0\Blazor.WebAssembly.Authentication.Auth0.csproj", "{71140B70-1437-4A1D-B89B-4B68BB2E84CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.WebAssembly.Authentication.Auth0", "src\Blazor.WebAssembly.Authentication.Auth0\Blazor.WebAssembly.Authentication.Auth0.csproj", "{D3804221-1234-4502-9595-39584E5A0222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,16 +20,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71140B70-1437-4A1D-B89B-4B68BB2E84CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71140B70-1437-4A1D-B89B-4B68BB2E84CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71140B70-1437-4A1D-B89B-4B68BB2E84CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71140B70-1437-4A1D-B89B-4B68BB2E84CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3804221-1234-4502-9595-39584E5A0222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3804221-1234-4502-9595-39584E5A0222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3804221-1234-4502-9595-39584E5A0222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3804221-1234-4502-9595-39584E5A0222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{71140B70-1437-4A1D-B89B-4B68BB2E84CB} = {33997DC9-84AA-47E3-BEB5-C418065DC503}
+		{D3804221-1234-4502-9595-39584E5A0222} = {33997DC9-84AA-47E3-BEB5-C418065DC503}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95736335-0C8B-4FDA-8722-E08046339B83}
