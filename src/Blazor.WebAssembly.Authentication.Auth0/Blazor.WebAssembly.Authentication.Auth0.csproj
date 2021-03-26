@@ -1,10 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>1.0.0.1</Version>
-
+		<Version>1.0.1</Version>
 		<Description>Authenticate your Blazor WebAssembly applications with Auth0</Description>
 		<Authors>Stef Heyenrath</Authors>
-		<TargetFramework>netstandard2.1</TargetFramework>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
 		<PackageId>WebAssembly.Authentication.Auth0</PackageId>
 		<LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
@@ -27,7 +26,11 @@
 		<None Include="../../resources/icon.png" Pack="true" PackagePath="" />
 	</ItemGroup>
 
-	<ItemGroup>
+	<ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.1' ">
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="3.2.0" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="5.0.0" />
 	</ItemGroup>
 </Project>
