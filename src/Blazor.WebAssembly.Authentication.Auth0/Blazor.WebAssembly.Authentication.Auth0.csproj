@@ -8,7 +8,9 @@
 		<LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<PackageTags>Blazor;WebAssembly;Auth0;Authentication;JWT;Audience</PackageTags>
-		<PackageReleaseNotes>See CHANGELOG.md</PackageReleaseNotes>
+		<PackageReleaseNotes>See ReleaseNotes.md</PackageReleaseNotes>
+    <PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/../../PackageReleaseNotes.txt"))</PackageReleaseNotes>
+    <PackageReadmeFile>PackageReadme.md</PackageReadmeFile>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,6 +26,7 @@
 
 	<ItemGroup>
 		<None Include="../../resources/icon.png" Pack="true" PackagePath="" />
+    <None Include="../../PackageReadme.md" Pack="true" PackagePath=""/>
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,0 +1,7 @@
+# 1.1.0 (19 September 2021)
+- #4 Add support for .NET 5.0 [bug]
+- #8 .NET 6.0 Support (fixes #7): [bug]
+- #3 .net 5 support [bug]
+- #7 Broken on .NET 6.0 [bug]
+
+The full release notes can be found here: https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0/blob/master/ReleaseNotes.md

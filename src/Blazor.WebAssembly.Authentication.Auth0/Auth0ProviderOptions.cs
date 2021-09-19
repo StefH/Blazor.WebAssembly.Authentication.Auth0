@@ -11,7 +11,6 @@ namespace Microsoft.AspNetCore.Components.WebAssembly.Authentication
     /// </summary>
     public class Auth0ProviderOptions : OidcProviderOptions
     {
-
         private const string AudienceKey = "audience";
 
         /// <summary>
@@ -19,7 +18,7 @@ namespace Microsoft.AspNetCore.Components.WebAssembly.Authentication
         /// </summary>
         public string Audience
         {
-            get => AdditionalProviderParameters.ContainsKey(AudienceKey) ? AdditionalProviderParameters[AudienceKey] : "";
+            get => AdditionalProviderParameters.ContainsKey(AudienceKey) ? AdditionalProviderParameters[AudienceKey] : string.Empty;
             set => AdditionalProviderParameters[AudienceKey] = value;
         }
 
@@ -38,7 +37,6 @@ namespace Microsoft.AspNetCore.Components.WebAssembly.Authentication
         }
 
 #if !NET6_0_OR_GREATER
-
         /// <summary>
         /// Gets or sets the additional provider parameters to use on the authorization flow.
         /// </summary>
@@ -49,9 +47,6 @@ namespace Microsoft.AspNetCore.Components.WebAssembly.Authentication
         /// </remarks>
         [JsonPropertyName("extraQueryParams")]
         public IDictionary<string, string> AdditionalProviderParameters { get; set; } = new Dictionary<string, string>();
-
 #endif
-
     }
-
 }
