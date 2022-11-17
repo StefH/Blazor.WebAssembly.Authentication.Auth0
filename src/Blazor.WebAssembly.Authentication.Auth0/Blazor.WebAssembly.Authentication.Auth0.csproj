@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>1.1.0</Version>
+		<Version>1.2.0</Version>
 		<Description>Authenticate your Blazor WebAssembly applications with Auth0</Description>
 		<Authors>Stef Heyenrath</Authors>
-		<TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.1;net6.0;net7.0</TargetFrameworks>
 		<PackageId>WebAssembly.Authentication.Auth0</PackageId>
-		<LangVersion>8.0</LangVersion>
+		<LangVersion>11</LangVersion>
 		<Nullable>enable</Nullable>
 		<PackageTags>Blazor;WebAssembly;Auth0;Authentication;JWT;Audience</PackageTags>
 		<PackageReleaseNotes>See ReleaseNotes.md</PackageReleaseNotes>
-    <PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/../../PackageReleaseNotes.txt"))</PackageReleaseNotes>
-    <PackageReadmeFile>PackageReadme.md</PackageReadmeFile>
+		<PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/../../PackageReleaseNotes.txt"))</PackageReleaseNotes>
+		<PackageReadmeFile>PackageReadme.md</PackageReadmeFile>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -26,7 +26,7 @@
 
 	<ItemGroup>
 		<None Include="../../resources/icon.png" Pack="true" PackagePath="" />
-    <None Include="../../PackageReadme.md" Pack="true" PackagePath=""/>
+		<None Include="../../PackageReadme.md" Pack="true" PackagePath=""/>
 	</ItemGroup>
 
 	<ItemGroup>

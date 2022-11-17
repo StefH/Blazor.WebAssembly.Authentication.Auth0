@@ -1,5 +1,5 @@
-# 1.1.0 (19 September 2021)
-- #8 .NET 6.0 Support (fixes #7): [bug]
-- #7 Broken on .NET 6.0 [bug]
+# 1.2.0 (17 November 2022)
+- #10 Update Blazor.WebAssembly.Authentication.Auth0.csproj to support .NET 7 [enhancement]
+- #9 .NET 7.0 Support [enhancement]
 
 The full release notes can be found here: https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0/blob/master/ReleaseNotes.md
