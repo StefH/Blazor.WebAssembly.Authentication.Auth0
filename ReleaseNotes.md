@@ -1,3 +1,7 @@
+# 1.3.0 (16 March 2024)
+- [#12](https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0/pull/12) - Add .NET 8 [enhancement] contributed by [StefH](https://github.com/StefH)
+- [#11](https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0/issues/11) - .NET 8 Support [bug]
+
 # 1.2.0 (17 November 2022)
 - [#10](https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0/pull/10) - Update Blazor.WebAssembly.Authentication.Auth0.csproj to support .NET 7 [enhancement] contributed by [robertmclaws](https://github.com/robertmclaws)
 - [#9](https://github.com/StefH/Blazor.WebAssembly.Authentication.Auth0/issues/9) - .NET 7.0 Support [enhancement]
