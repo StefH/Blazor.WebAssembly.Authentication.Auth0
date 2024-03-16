@@ -3,9 +3,9 @@
 		<Version>1.2.0</Version>
 		<Description>Authenticate your Blazor WebAssembly applications with Auth0</Description>
 		<Authors>Stef Heyenrath</Authors>
-		<TargetFrameworks>netstandard2.1;net6.0;net7.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.1;net6.0;net7.0;net8.0</TargetFrameworks>
 		<PackageId>WebAssembly.Authentication.Auth0</PackageId>
-		<LangVersion>11</LangVersion>
+		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
 		<PackageTags>Blazor;WebAssembly;Auth0;Authentication;JWT;Audience</PackageTags>
 		<PackageReleaseNotes>See ReleaseNotes.md</PackageReleaseNotes>
@@ -33,5 +33,6 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="[3.2.0, 4.0.0)" Condition=" '$(TargetFramework)' == 'netstandard2.1' " />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="[6.0.0, 7.0.0)" Condition=" '$(TargetFramework)' == 'net6.0' "/>
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="[7.0.0, 8.0.0)" Condition=" '$(TargetFramework)' == 'net7.0' "/>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="8.0.0" Condition=" '$(TargetFramework)' == 'net8.0' "/>
 	</ItemGroup>
 </Project>
