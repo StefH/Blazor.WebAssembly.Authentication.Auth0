@@ -1,13 +1,15 @@
 # Blazor.WebAssembly.Authentication.Auth0
 Blazor WebAssembly Auth0 Oidc Authentication with support for *Audience*, because the default `AddOidcAuthentication` does not support setting the *Audience*.
 
-[![NuGet](https://buildstats.info/nuget/WebAssembly.Authentication.Auth0)](https://www.nuget.org/packages/WebAssembly.Authentication.Auth0)
 
-### Install the NuGet
+## NuGet
+[![NuGet](https://buildstats.info/nuget/WebAssembly.Authentication.Auth0)](https://www.nuget.org/packages/WebAssembly.Authentication.Auth0)
 
 ```
 PM> Install-Package WebAssembly.Authentication.Auth0
 ```
+
+## Usage
 
 ### Define app.settings
 ``` json
@@ -33,7 +35,8 @@ builder.Services.AddAuth0Authentication(options =>
 ```
 
 ---
-### References
+
+## :books: References
 - [Auth0 : pass-the-audience-parameter-to-receive-a-jwt](https://community.auth0.com/t/why-is-it-necessary-to-pass-the-audience-parameter-to-receive-a-jwt/11412)
 - [Example : BlazorWasmGrpcWithAuth0](https://github.com/StefH/BlazorWasmGrpcWithAuth0)
 - [Secure an ASP.NET Core Blazor WebAssembly standalone app with the Authentication library](https://docs.microsoft.com/en-us/aspnet/core/blazor/security/webassembly/standalone-with-authentication-library?view=aspnetcore-3.1)
